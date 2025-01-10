@@ -1,19 +1,81 @@
+:root{ --colorWhite:#FFF;}
+/* Neutral Colors */
+:root{ --colorNeural50:#F8FAFC;}
+:root{ --colorNeural200: #E2E8F0;}
+:root{ --colorNeural400: #94A3B8;}
+:root{ --colorNeural500:#64748B;}
+:root{ --colorNeural600:#475569;}
+/* Primary Colors */
+:root{ --colorPrimary100: #F3F2FF;}
+:root{ --colorPrimary200: #EEE5FF;}
+:root{ --colorPrimary500: #6729FF;}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--colorWhite);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+/* Start header */
 header{
+    display: flex;
     width: 100%;
-    /* display: flex; */
+    background-color: var(--colorWhite);
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border: solid 3px #000;
     align-items: center;
-    background-color: #fff;
-    padding: 1em;
-    text-align: center;
-    /* position: fixed; */
+}
+
+header .logo{
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    border: solid 3px #000;
 }
 
 .nav-links{
-    list-style: none;
-    margin: 0 auto;
     display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    border: solid 3px #000;
 }
 
-.nav-links li{
-    padding: 0 1em;
+.nav-links a{
+    text-decoration: none;
+    color: var(--colorNeural400);
+    padding: 0px 25px;
 }
+
+.login{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 2px;
+    border: solid 3px #000;
+}
+
+.login a{
+    text-decoration: none;
+    color: var(--colorNeural400);
+    padding: 0px 25px;
+}
+
+.button-login{
+    display: block;
+    background-color: var(--colorPrimary500);
+    color: var(--colorWhite);
+    border: solid 3px #000;
+    border-radius: 10px;
+    height: 35px;
+    align-content: center;
+}
+/* End Header */
