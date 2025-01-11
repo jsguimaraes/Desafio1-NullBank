@@ -1,3 +1,7 @@
+@import url('https: //fonts.google.com/specimen/Poppins');
+@import url('https: //fonts.google.com/specimen/Outfit?query=outfit');
+
+/* Variables */
 :root{ --colorWhite:#FFF;}
 /* Neutral Colors */
 :root{ --colorNeural50:#F8FAFC;}
@@ -29,24 +33,26 @@ header{
     width: 100%;
     background-color: var(--colorWhite);
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px 20px;
-    border: solid 3px #000;
+    border: solid 3px red;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 header .logo{
     margin-left: 20px;
     width: 100px;
     height: 30px;
-    border: solid 3px #000;
+    border: solid 3px red;
 }
 
 .nav-links{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    border: solid 3px #000;
+    border: solid 3px red;
+    
 }
 
 .nav-links a{
@@ -60,7 +66,7 @@ header .logo{
     flex-flow: row nowrap;
     align-items: center;
     padding: 2px;
-    border: solid 3px #000;
+    border: solid 3px blue;
 }
 
 .login a{
@@ -79,3 +85,150 @@ header .logo{
     align-content: center;
 }
 /* End Header */
+
+/* Start main */
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border: solid 3px #000;
+}
+
+.banners{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    border: solid 3px red;
+}
+
+.banner-home{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 50%;
+    border: solid 3px blue;
+}
+
+.banner-text{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    text-align: start;
+    border: solid 1px #000;
+}
+
+.banner-text h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: var(--colorNeural600);
+    text-align: start;
+    padding-top: 30px;
+    border: solid 1px #000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.banner-text p{
+    color: var(--colorNeural500);
+    text-align: start;
+    font-family: 'popins', sans-serif;
+    font-size: 0.8em;
+    border: solid 1px #000;
+    margin-top: 10px;
+}
+
+.banner-buttons{
+    display: flex;
+    flex-flow: row nowrap;
+    border: solid 1px #000;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+
+.banner-buttons .button-open-account{
+    display: block;
+    font-family: 'popins', sans-serif;
+    font-weight: 600;
+    font-size: 0.6em;
+    background-color: var(--colorPrimary200);
+    color: var(--colorPrimary500);
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 20px;
+    border: solid 1px #000;
+    border-radius: 8px;
+}
+
+.banner-buttons .button-find-out-more{
+    display: block;
+    font-family: 'popins', sans-serif;
+    font-weight: 600;
+    font-size: 0.6em;
+    color: var(--colorNeural500);
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.banner-photos-people{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    border: solid 1px red;
+}
+
+.banner-photos-people img{
+    display: flex;
+    position: relative;
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    border: solid 2px var(--colorWhite);
+}
+
+.img1{
+    position: absolute;
+    left: 0px;
+}
+
+.img2 {
+    position: absolute;
+    right: 12px;
+}
+
+.img3 {
+    position: absolute;
+    right: 25px;
+}
+
+.img4 {
+    position: absolute;
+    right: 36px;
+}
+
+.img5 {
+    position: absolute;
+    right: 48px;
+}
+
+.img6 {
+    background-color: var(--colorPrimary200);
+    position: absolute;
+    right: 60px;
+}
+
+.positive-customers{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    color: var(--colorNeural400);
+    font-family: 'popins', sans-serif;
+    font-size: 0.5em;
+    border: solid 3px blue;
+    margin-top: 0px;
+}
