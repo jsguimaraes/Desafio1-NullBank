@@ -500,3 +500,111 @@ main{
     font-weight: 600;
     padding-left: 10px;
 }
+
+.control{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height:max-content;
+    border: solid 3px red;
+}
+
+.control-card{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    padding-left: 100px;
+    border: solid 3px yellow;
+}
+
+.control-card img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.control-card-1{
+    width:max-content;
+    height: 90%;
+    border: solid 3px green;
+    position: absolute;
+}
+
+.control-card-2{
+    width: 80%;
+    height: 60%;
+    background-color: var(--colorNeural400);
+    border: solid 3px blue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.control-app {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 150px;
+    border: solid 3px green;
+}
+
+.control-app .title{
+    font-family: 'popins', sans-serif;
+    color: var(--colorPrimary500);
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+.control-app h1{
+    font-family: 'outfit', sans-serif;
+    font-size: 1.5em;
+    color: var(--colorNeural600);
+}
+
+.control-app p{
+    font-family: 'popins', sans-serif;
+    font-size: 0.7em;
+    color: var(--colorNeural500);
+    margin: 1px;
+    padding: 2px;
+}
+
+.control-app img{
+    max-width: 60%;
+    max-height: 60%;
+    padding: 0px 5px;
+    margin-top: 8px;
+    background-color: var(--colorPrimary500);
+    border-radius: 8px;
+}
+
+.control-app-cashback{
+    display: flex;
+    flex-flow: row wrap;
+    width:max-content;
+    margin-bottom: 3px;
+    border: solid 3px red;
+}
+
+.control-app-text{
+    padding-left: 8px;
+
+}
+
+.control-app-offers{
+    display: flex;
+    flex-flow: row wrap;
+    width: max-content;
+    margin-bottom: 3px;
+    border: solid 3px blue;
+}
+
+.control-app-security{
+    display: flex;
+    flex-flow: row wrap;
+    width: max-content;
+    border: solid 3px yellow;
+}
