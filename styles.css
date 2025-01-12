@@ -109,7 +109,6 @@ main{
 .banner-text{
     display: flex;
     flex-flow: column nowrap;
-    align-items: start;
     text-align: start;
 }
 
@@ -287,4 +286,217 @@ main{
     max-height: 28px;
     padding: 0px 8px;
     border-radius: 6px;
+}
+/* ----------------- */
+.cards {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    border: solid 3px blue;
+}
+
+.card-text{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 40%;
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 150px;
+    border: solid 3px green;
+}
+
+.card-text .title{
+    font-family: 'popins', sans-serif;
+    color: var(--colorPrimary500);
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+.card-text h1{
+    font-family: 'outfit', sans-serif;
+    font-size: 1.5em;
+    color: var(--colorNeural600);
+}
+
+.card-text p{
+    font-family: 'popins', sans-serif;
+    font-size: 0.7em;
+    color: var(--colorNeural500);
+}
+
+#null-purple{
+    color: var(--colorPrimary500);
+}
+
+.card-button{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 20px 0px;
+}
+
+.card-button a{
+    text-decoration: none;
+    text-align: center;
+    color: var(--colorPrimary500);
+    font-family: 'popins', sans-serif;
+    font-weight: 600;
+    font-size: 0.7em;
+}
+
+.card-button img{
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.cards-benefits{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 60%;
+    border: solid 3px yellow;
+}
+
+.cards-benefits img{
+    background-color: var(--colorPrimary200);
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 5px;
+}
+
+.rewards{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    height: max-content;
+    margin-top: 5px;
+    margin-left: 20px;
+    border: solid 1px var(--colorNeural200);
+    border-radius: 10px;
+}
+
+.rewards-title{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.discounts{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 42%;
+    height: max-content;
+    margin-top: 5px;
+    margin-right: 20px;
+    border: solid 1px var(--colorNeural200);
+    border-radius: 10px;
+}
+
+.discounts-title{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-left: 5px;
+    margin-bottom: -18px;
+}
+
+.cashback {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 42%;
+    height: max-content;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: solid 1px var(--colorNeural200);
+    border-radius: 10px;
+}
+
+.cashback-title {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.international-card{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    height: max-content;
+    margin-top: 15px;
+    margin-right: 20px;
+    border: solid 1px var(--colorNeural200);
+    border-radius: 10px;
+}
+
+.international-card-title {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.digital-wallets {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 130px;
+    margin: 15px 20px;
+    justify-content: end;
+    border: solid 1px black;
+    border-radius: 10px;
+    position: relative;
+    background-color: var(--colorPrimary100);
+    overflow: hidden;
+}
+
+.digital-wallets-title{
+    display: flex;
+    width: 30%;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-left: 5px;
+    border: solid 1px black;
+}
+
+.rotate {
+    background-color: var(--colorWhite);
+    display: flex;
+    width: 100px;
+    height: 80px;
+    transform: rotate(5deg);
+    border-radius: 5px;
+    position: absolute;
+    left: 48%;
+    bottom: -14%;
+    color: transparent;
+}
+
+.rotate-2{
+    background-color: var(--colorPrimary500);
+    display: flex;
+    width: 100px;
+    height: 80px;
+    transform: rotate(5deg);
+    border-radius: 5px;
+    position: absolute;
+    left: 58%;
+    bottom: -14%;
+    color: transparent;
+}
+
+.cards-benefits p{
+    font-family: 'popins', sans-serif;
+    font-size: 0.7em;
+    color: var(--colorNeural500);
+    padding-left: 5px;
+}
+
+.cards-benefits .title-p {
+    font-family: 'outfit', sans-serif;
+    font-size: 1em;
+    color: var(--colorPrimary500);
+    font-weight: 600;
+    padding-left: 10px;
 }
