@@ -61,6 +61,12 @@ header .logo{
 
 .nav-links .nav-link-index{
     color: var(--colorPrimary500);
+    font-weight: 600;
+}
+
+.nav-links .nav-link-contato{
+    color: var(--colorPrimary500);
+    font-weight: 600;
 }
 
 .login{
@@ -839,4 +845,224 @@ input::placeholder{
     font-weight: bold;
     color: var(--colorPrimary500);
     margin: 0px 10px;
+}
+
+.banner-contato{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 80%;
+    padding-left: 12%;
+    text-align: start;
+    background-color: var(--colorPrimary500);
+    padding-bottom: 2%;
+}
+
+.banner-contato h1{
+    font-family: 'outfit', sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: var(--colorWhite);
+    text-align: start;
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.banner-contato p{
+    color: var(--colorNeural200);
+    text-align: start;
+    font-family: 'popins', sans-serif;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.main-info{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.main-info h2{
+    font-family: 'outfit', sans-serif;
+    font-size: 1.5em;
+    color: var(--colorNeural600);
+    padding: 0;
+    margin: 0;
+}
+
+.main-info p{
+    font-family: 'popins', sans-serif;
+    font-size: 0.7em;
+    color: var(--colorNeural400);
+    padding-top: 10px;
+    margin: 0;
+}
+
+.main-info span {
+    font-family: 'popins', sans-serif;
+    font-size: 0.7em;
+    color: var(--colorNeural600);
+    padding-top: 10px;
+    margin: 0;
+}
+
+.main-info img {
+    max-width: 25px;
+    max-height: 25px;
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.main-telephone{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 4%;
+    margin-top: 4%;
+    border-bottom: solid 1px var(--colorNeural200);
+}
+
+.phone-text{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+    text-align: start;
+}
+
+.text-1{
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: start;
+}
+
+.main-social-media{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 4%;
+    margin-top: 1%;
+    border-bottom: solid 1px var(--colorNeural200);
+}
+
+.social-text {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+    text-align: start;
+}
+
+.social-media{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    width: 50%;
+    padding-top: 3%;
+}
+
+.talk-to-us{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 4%;
+    margin-top: 1%;
+    border-bottom: solid 1px var(--colorNeural200);
+}
+
+.talk-text{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+    text-align: start;
+}
+
+.talk-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.talk-form .row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.talk-form label {
+    font-family: 'outfit', sans-serif;
+    color: var(--colorNeural600);
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+
+.talk-form #nome,
+.talk-form #sobrenome {
+    font-family: 'popins', sans-serif;
+    color: var(--colorNeural400);
+    padding: 10px;
+    border: 1px solid var(--colorNeural200);
+    border-radius: 4px;
+
+}
+
+.talk-form #email {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--colorNeural200);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.talk-form #mensagem {
+    width: 100%;
+    height: 100px;
+    border: 1px solid var(--colorNeural200);
+    border-radius: 4px;
+    font-family: 'popins', sans-serif;
+    color: var(--colorNeural400);
+}
+
+.button-form{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.talk-form button {
+    display: flex;
+    width: 40%;
+    padding: 5px 0px 5px 5px;
+    background-color: var(--colorPrimary500);
+    color: var(--colorWhite);
+    font-family: 'popins', sans-serif;
+    font-size: 0.9em;
+    font-weight: 200;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.talk-form button img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding-left: 5px;
 }
