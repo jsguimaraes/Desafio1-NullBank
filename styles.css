@@ -59,6 +59,10 @@ header .logo{
     padding: 0px 25px;
 }
 
+.nav-links .nav-link-index{
+    color: var(--colorPrimary500);
+}
+
 .login{
     display: flex;
     flex-flow: row nowrap;
@@ -72,7 +76,7 @@ header .logo{
     padding: 0px 25px;
 }
 
-.button-login{
+.login .button-login{
     display: block;
     background-color: var(--colorPrimary500);
     color: var(--colorWhite);
