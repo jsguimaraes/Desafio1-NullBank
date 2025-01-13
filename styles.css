@@ -773,6 +773,10 @@ footer{
     color: var(--colorNeural400);
 }
 
+.footer-text a{
+    text-decoration: none;
+}
+
 .footer-text .title-footer{
     font-family: 'outfit', sans-serif;
     font-size: 0.9em;
